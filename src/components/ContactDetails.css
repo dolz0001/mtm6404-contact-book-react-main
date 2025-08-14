@@ -1,0 +1,132 @@
+/* src/components/ContactDetails.css */
+.contact-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  min-height: 100vh;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.back-link, .edit-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.back-link:hover, .edit-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.contact-details-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.contact-info {
+  margin-bottom: 40px;
+}
+
+.info-group {
+  margin-bottom: 25px;
+}
+
+.info-group label {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-group p {
+  color: #333;
+  font-size: 1.1rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.email-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.delete-confirm {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 5px;
+}
+
+.delete-confirm p {
+  margin-bottom: 15px;
+  color: #856404;
+}
+
+.confirm-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.confirm-yes {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-yes:hover {
+  background-color: #c82333;
+}
+
+.confirm-no {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-no:hover {
+  background-color: #5a6268;
+}
